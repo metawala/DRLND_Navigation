@@ -37,14 +37,14 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 #### Files List:
-1. DQNAgent.py: This is the file that contains the main agent. This file contains 2 classes: 
+1. **`DQNAgent.py`**: This is the file that contains the main agent. This file contains 2 classes: 
     - First is the Agent class which contains the main Agent implementation.
     - Second is the ReplayBuffer class that helps with picking experiences from a replay buffer.
-2. Navigation.ipynb: This is the "main" file that contains the training code and the results of the runs on the unity sim.
-3. Navigation_Pixels.ipynb: The optional file that can be used to perform the same project and train from pixels. <- This has not been used for this submission.
-4. model.py: This file contains the DQN model. Details of the model can be viewed in the file.
-5. modelWeights.pth: This contains the saved weights of the model required as part of the rubric for this project submission.
+2. **`Navigation.ipynb`**: This is the "main" file that contains the training code and the results of the runs on the unity sim.
+3. **`Navigation_Pixels.ipynb`**: The optional file that can be used to perform the same project and train from pixels. <- This has not been used for this submission.
+4. **`model.py`**: This file contains the DQN model. Details of the model can be viewed in the file.
+5. **`modelWeights.pth`**: This contains the saved weights of the model required as part of the rubric for this project submission.
 
 #### Running the project:
 - Ensure you have met the requirements and instructions described above and at the following [Udacity DRLND Page](https://github.com/udacity/deep-reinforcement-learning#dependencies)
-- Open Navigation.ipynb jupyter notebook and run the cells within it to get the final result.
+- Open **`Navigation.ipynb`** jupyter notebook and run the cells within it to get the final result.
