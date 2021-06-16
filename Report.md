@@ -30,7 +30,8 @@ Using a gamma of 0.99 and learning rate of 0.0005; we use RELU activation and si
 
 ## Plots of Rewards:
 The project is considered solved when the cumulative score reaches over 13. I ran into some issues when trying to get the score up. I continuously kept getting -ve scores after a first good run of 100 episodes. The issue was I was multiplying rewards with the `(gamma * QTargetsNext * (1 - dones))` instead of adding it to create a cumulative score.
-I was able to achieve the target score in **675 episodes.** Below is an image that shows scores vs episode number.
+I was able to achieve the target score in **775 episodes.** Below is an image that shows scores vs episode number.
+
 ![Scores Result][image3]
 
 ## Ideas for Future Work:
